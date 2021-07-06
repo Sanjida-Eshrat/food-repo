@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    font-family: 'Poppins','sana-serif';
+}
+section{
+    height: 500px;
+
+}
+h1{
+    font-size: 50px;
+}
+.flexible-container{
+    display: flex;
+}
+
+/*nav section style*/
+.nav-section{
+    height: 100px;
+}
+ nav ul{
+     float: right;
+ }
+ nav ul li{
+     margin-right: 40px;
+     display: inline-block;
+     font-size: 20px;
+     font-weight: bold;
+ }
+ nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    background-color: orange;
+}
+/*nav section ends*/
+
+.top-section{
+    margin-top: 0;
+    padding-bottom: 100px;
+}
+.section-half{
+    width: 50%;
+    height: 100%;
+    margin-left: 3%;
+    padding-left: 1%;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+.section-half img{
+    width: 100%;
+    height: 100%;
+}
+#about{
+    margin-top: 100px;
+}
+.text-highlighter{
+    color: orange;
+}
+.link-button{
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    font-weight: bold;
+    background-image: linear-gradient(45deg, cyan,royalblue);
+    border-radius: 25px;
+    box-shadow: royalblue;
+}
+
+.about-section{
+    background-image: url('images/shapes/Frame 57.jpg');
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    padding-bottom: 60px;
+}
+h2{
+    font-size: 30px;
+    opacity: .6;
+}
+.recipe-section{
+    padding-top: 20px;
+    background-color: white;
+    padding-bottom: 280px;
+}
+.recipe-section h2{
+    text-align: center;
+}
+.recipe-section p{
+    text-align: center;
+}
+.card{
+    background-color: white;
+    width: 30%;
+    border-radius: 12px;
+    margin-left: 30px;
+    box-shadow: 1px 1px 25px gray;
+}
+.top{
+    height: 65%;
+    margin-left: 5px;
+}
+.top img{
+    width: 98%;
+    border-radius: 12px;
+    margin-left: 7x;
+    padding-top: 5px;
+}
+.bottom{
+    padding-top: 20px;
+    padding-left: 7px;
+    height: 35%;
+    width: 95%;
+}
+.bottom p{
+    text-align: justify;
+}
+.commitment-section{
+    background-color: rgb(152, 184, 197);
+    height: 200px;
+}
+.commit-field{
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 30%;
+
+}
+.comment-section{
+    margin-top: 80px;
+    text-align: center;
+    background-color: white;
+    height: 300px;
+}
+#customer{
+    color: royalblue;
+    font-weight: 4em;
+}
+footer{
+    height: 220px;
+    padding-top: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+small{
+    opacity: .6;
+}
+
